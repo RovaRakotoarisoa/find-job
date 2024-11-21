@@ -9,7 +9,7 @@ function Head() {
     <div>
         <h2> Bonjour </h2>
         <nav>
-          <NavLink to="/head">
+          <NavLink to="/">
              go to head
           </NavLink>
         </nav>

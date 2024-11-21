@@ -7,7 +7,7 @@ const Index = () => {
   return (
     <div>
       <Routes>
-        <Route path='/head' element={<Head />} />
+        <Route path='/' element={<Head />} />
       </Routes>
     </div>
   )
