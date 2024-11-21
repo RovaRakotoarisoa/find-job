@@ -2,9 +2,12 @@ import './bootstrap';
 
 import React from 'react';
 import ReactDOM from 'react-dom/client';
+import { BrowserRouter } from 'react-router-dom';
 
-import Head from './components/Head';
+import App from './components/App';
 
 ReactDOM.createRoot(document.getElementById('app')).render(
-    <Head/>
+    <BrowserRouter>
+      <App />
+    </BrowserRouter>
 )
